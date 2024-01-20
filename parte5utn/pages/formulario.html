@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Contactos</h1>
+    <form action="" method="post" id="formregister">
+
+        <label for="Nombre">Nombre:  </label>       <br>  
+        <input type="text" id="Nombre" name="Nombre" required >  <br>
+        <label for="Numero">Telefono:  </label>     <br>
+        <input type="numer" id="numero" name="numero" required> <br>
+        <label for="password">Usuario: </label><br>
+        <input type="password" id="password" name="password" minlength="8"> <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" pattern="(/^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}
+        [A-Z]{2,63}$/i)" placeholder="pepe@gmail.com">
+        <input type="submit" value="Solicitar Asesoramiento">  
+        <button>
+            Envio data con button 
+        </button>
+
+    </form>
+
+    <div>
+        <button>
+            <a href="../index.html#piedepagina">Importante</a>
+        </button>
+    </div>
+
+    <div>
+        <button>
+            <a href="https://www.google.com.ar/" target="_ blank">Otras Opciones</a>
+        </button>
+    </div>
+</body>
+</html>
